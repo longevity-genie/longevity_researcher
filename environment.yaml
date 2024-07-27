@@ -1,0 +1,13 @@
+name: longevity-researcher
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - polars
+  - jupyter
+  - jupyterlab
+  - pip
+  - pip:
+      - just-agents>=0.0.8
+      - pycomfort
